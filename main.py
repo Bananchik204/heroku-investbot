@@ -2,7 +2,6 @@ import os
 import telebot
 from flask import Flask, request
 import config
-import bot
 
 APP_URL = f"https://investbot-webhook.herokuapp.com/{config.TOKEN}"
 bot = telebot.TeleBot(config.TOKEN)
